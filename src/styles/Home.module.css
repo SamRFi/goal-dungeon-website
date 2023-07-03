@@ -1,9 +1,16 @@
 .container {
-  padding: 0 0.5rem;
+  min-height: 100vh;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  background: black url('../../public/goaldungeongreywall.png') repeat center center fixed; 
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 
 .header {
@@ -16,7 +23,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 500px;
+}
+
+.main h1 {
+  color: orange;
 }
 
 .title {
